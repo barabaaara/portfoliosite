@@ -13,6 +13,19 @@
     transform: translateY(-50%);
 }
 
-.toptext {
+.top-text {
     margin-bottom: 30px;
+    font-size: 40pt;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.main-text {
+    font-size: 15pt;
+}
+
+.main-list {
+    margin: 5px;
 }
