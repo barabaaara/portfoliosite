@@ -13,8 +13,30 @@
     <link rel="stylesheet" href="style.css">
 
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/navi.js"></script>
 </head>
 <body>
+    <!--ハンバーガーボタン-->
+    <div class="el_humburger">
+        <div class="el_humburger_wrapper">
+            <span class="el_humburger_bar top"></span>
+            <span class="el_humburger_bar middle"></span>
+            <span class="el_humburger_bar bottom"></span>
+        </div>
+    </div>
+    
+    <!--ナビゲーション-->
+    <header class="navi">
+        <div class="navi_inner">
+            <div class="navi_item"><a class="navi-link" href="">ABOUT</a></div>
+            <div class="navi_item"><a class="navi-link" href="">WORKS</a></div>
+            <div class="navi_item"><a class="navi-link" href="">GALLERY</a></div>
+            <div class="navi_item"><a class="navi-link" href="">FLOW</a></div>
+            <div class="navi_item"><a class="navi-link" href="">FAQ</a></div>
+            <div class="navi_item"><a class="navi-link" href="">CONTACT</a></div>
+        </div>
+    </header>
+
     <!-- トップ画像 -->
     <div class="jumbotron jumbotron-extend">
         <div class="container-fluid jumbotron-container">
@@ -42,11 +64,15 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- ハンバーガーメニュー -->
+    <script>humburger_menu();</script>
+
 </body>
 </html>
