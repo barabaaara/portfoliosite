@@ -14,6 +14,9 @@
 
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/navi.js"></script>
+
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 <body>
     <!--ハンバーガーボタン-->
@@ -45,44 +48,111 @@
         </div>
     </div>
 
-    <!-- <div class="container-fluid bg-light"> -->
-        <!-- プロフィール -->
-        <div class="container-fluid bg-light">
-            <h1 class="section-title">Profile</h1>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 profile-img">
-                    <img src="img/profile-icon.png" class="img-fluid rounded-circle" alt="">
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                    <ul>
-                        <li class="main-list">名前：Fumiya Hayashibara</li>
-                        <li class="main-list">年齢：<script>document.write(getAge());</script>歳</li>
-                        <li class="main-list">出身：大阪（在住）</li>
-                        <li class="main-list">職業：エンジニア</li>
-                    </ul>
-                </div>
+    <!-- プロフィール -->
+    <div class="container-fluid bg-light">
+        <h1 class="section-title">Profile</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 profile-img">
+                <img src="img/profile-icon.png" class="img-fluid rounded-circle" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <ul>
+                    <li class="main-list">名前：Fumiya Hayashibara</li>
+                    <li class="main-list">年齢：<script>document.write(getAge());</script>歳</li>
+                    <li class="main-list">出身：大阪（在住）</li>
+                    <li class="main-list">職業：エンジニア</li>
+                </ul>
             </div>
         </div>
+    </div>
 
-        <!-- 成果物 -->
-        <div class="container-fluid">
-            <h1 class="section-title">Works</h1>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                    <img src="img/top01.jpg" class="img-fluid p-1" alt="">
-                    <p>text</p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                    <img src="img/top01.jpg" class="img-fluid p-1" alt="">
-                    <p>text</p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                    <img src="img/top01.jpg" class="img-fluid p-1" alt="">
-                    <p>text</p>
-                </div>
+    <!-- 制作物 -->
+    <div class="container-fluid">
+        <h1 class="section-title">Works</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <label for="cp_modal01" class="work-modal">
+                    <figure>
+                        <img src="img/work_portfolio.jpg" class="img-fluid p-1 works-img" alt="">
+                        <figcaption>ポートフォリオサイト</figcaption>
+                    </figure>
+                </label>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <label for="cp_modal02" class="work-modal">
+                    <figure>
+                        <img src="img/work_twitter-autofollow.jpg" class="img-fluid p-1 works-img" alt="">
+                        <figcaption>Twitter自動フォロープログラム</figcaption>
+                    </figure>
+                </label>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <label for="cp_modal03" class="work-modal">
+                    <figure>
+                        <img src="img/work_blog.jpg" class="img-fluid p-1 works-img" alt="">
+                        <figcaption>ブログ</figcaption>
+                    </figure>
+                </label>
             </div>
         </div>
-    <!-- </div> -->
+    </div>
+
+    <!-- 制作物（ポートフォリオサイト）モーダル -->
+    <div>
+        <input type="checkbox" id="cp_modal01" />
+        <label for="cp_modal01" class="cp_modal_bg01"></label>
+        <div class="cp_modal_cont01">
+            <label for="cp_modal01" class="cp_close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </label>
+            <header class="modal-header">
+                <h2 class="modal-title">ポートフォリオサイト</h2>
+            </header>
+            <article class="cp_content">
+                <p>テキスト</p>
+            </article>
+            <footer><label for="cp_modal01" class="cp_btn cp_cl">閉じる</label></footer>
+        </div>
+    </div>
+
+    <!-- 制作物（Twitter自動フォロープログラム）モーダル -->
+    <div>
+        <input type="checkbox" id="cp_modal02" />
+        <label for="cp_modal02" class="cp_modal_bg02"></label>
+        <div class="cp_modal_cont02">
+            <label for="cp_modal02" class="cp_close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </label>
+            <header class="modal-header">
+                <h2 class="modal-title">Twitter自動フォロープログラム</h2>
+            </header>
+            <article class="cp_content">
+                <p>テキスト</p>
+            </article>
+            <footer><label for="cp_modal02" class="cp_btn cp_cl">閉じる</label></footer>
+        </div>
+    </div>
+
+    <!-- 制作物（ブログ）モーダル -->
+    <div>
+        <input type="checkbox" id="cp_modal03" />
+        <label for="cp_modal03" class="cp_modal_bg03"></label>
+        <div class="cp_modal_cont03">
+            <label for="cp_modal03" class="cp_close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </label>
+            <header class="modal-header">
+                <h2 class="modal-title">ブログ</h2>
+            </header>
+            <article class="cp_content">
+                <p>テキスト</p>
+            </article>
+            <footer><label for="cp_modal03" class="cp_btn cp_cl">閉じる</label></footer>
+        </div>
+    </div>
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
