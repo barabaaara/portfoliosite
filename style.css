@@ -1,5 +1,5 @@
 body {
-    font-size: 15pt;
+    font-size: 1.2em;
 }
 
 figure {
@@ -8,12 +8,12 @@ figure {
 
 figcaption {
     color: grey;
-    font-size: 15pt;
+    font-size: 0.9em;
 }
 
 .nav-extend {
     background-color: rgba(255,255,255,0.5);
-    font-size: 20pt;
+    font-size: 1.5em;
 }
 
 .jumbotron-extend {
@@ -33,7 +33,7 @@ figcaption {
 
 .top-text {
     margin-bottom: 30px;
-    font-size: 40pt;
+    font-size: 2.5em;
 }
 
 .section-title {
@@ -213,7 +213,7 @@ figcaption {
 }
 
 .link-icon {
-    font-size: 30pt;
+    font-size: 2.0em;
     color: black;
 }
 
@@ -242,7 +242,8 @@ figcaption {
 }
 
 .skill-box-child {
-    padding: 15px 10px 15px 10px;
+    padding: 15px 10px 15px 5px;
+    font-size: 0.9em;
 }
 
 .skill-box-child .row {
@@ -250,7 +251,7 @@ figcaption {
 }
 
 .star i {
-    font-size: 15px;
+    font-size: 0.8em;
     color: #fc6530;
 }
 
