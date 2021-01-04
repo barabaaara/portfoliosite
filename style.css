@@ -237,6 +237,54 @@ figcaption {
 } */
 
 
+.skill-box {
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.22);
+}
+
+.skill-box-title {
+    font-size: 1.2em;
+    background: #5fc2f5;
+    padding: 5px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.skill-box-child {
+    padding: 15px 10px 15px 10px;
+}
+
+.skill-box-child .row {
+    padding: 3px 0px 3px 0px;
+}
+
+/* .skill-box {
+    margin: 10px;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.skill-box .box-title {
+    font-size: 1.2em;
+    background: #5fc2f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.skill-box p {
+    padding: 15px 20px;
+    margin: 0;
+} */
+
+.star i {
+    font-size: 15px;
+    color: #fc6530;
+}
+
+
 
 
 
