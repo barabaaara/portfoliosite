@@ -1,9 +1,20 @@
 body {
     font-size: 1.2em;
+    background-image: url(img/background04.png);
+    background-attachment: fixed;
+    color: #4e5966;
 }
 
-body .container-fluid {
-    /* padding: 20px 10px 20px 10px; */
+.contact-btn {
+    color: white;
+    background-color: #88c9ba;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.contact-btn:hover {
+    color: white;
+    background-color: cadetblue;
+    text-decoration: none;
 }
 
 figure {
@@ -11,7 +22,6 @@ figure {
 }
 
 figcaption {
-    color: grey;
     font-size: 0.9em;
 }
 
@@ -237,7 +247,7 @@ figcaption {
 
 .skill-box-title {
     font-size: 1.2em;
-    background: #5fc2f5;
+    background: #8f7758;
     padding: 5px;
     text-align: center;
     color: #FFF;
@@ -256,7 +266,8 @@ figcaption {
 
 .star i {
     font-size: 0.8em;
-    color: #fc6530;
+    /* color: #fc6530; */
+    color: #c22b54;
 }
 
 .contact-text {
@@ -264,9 +275,8 @@ figcaption {
 }
 
 .contact-link {
-    /* font-size: 2.0em; */
     margin: 0px 5px 0px 5px;
-    color: cadetblue;
+    color: #88c9ba;
     text-decoration: none;
 }
 
