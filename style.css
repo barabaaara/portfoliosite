@@ -182,6 +182,12 @@ figcaption {
     background-color: #da3c41;
 }
 
+.cp_modal_cont01 footer .cp_btn.cp_cl:hover,
+.cp_modal_cont02 footer .cp_btn.cp_cl:hover,
+.cp_modal_cont03 footer .cp_btn.cp_cl:hover {
+    opacity: 0.8;
+}
+
 #cp_modal01,
 #cp_modal02,
 #cp_modal03 {
