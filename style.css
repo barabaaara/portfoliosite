@@ -2,6 +2,10 @@ body {
     font-size: 1.2em;
 }
 
+body .container-fluid {
+    /* padding: 20px 10px 20px 10px; */
+}
+
 figure {
     text-align: center;
 }
@@ -268,9 +272,14 @@ figcaption {
 
 .contact-link:hover {
     color: cadetblue;
+    text-decoration: none;
 }
 
-
+.footer-copyright {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 40px 0px 5px 0px;
+}
 
 
 
