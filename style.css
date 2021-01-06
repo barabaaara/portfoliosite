@@ -308,10 +308,7 @@ figcaption {
 
 
 
-.navi-link {
-    color: #040404;
-    text-decoration: none;
-}
+
 
 /*ハンバーガーボタン*/
 .el_humburger {
@@ -411,17 +408,31 @@ figcaption {
 }
 
 .js_humburgerOpen .navi {
-    width: 400px;
+    width: 350px;
 }
 
 .navi_item {
-    margin-bottom: 28px;
+    display: block;
+    width: 100%;
+    /* margin-bottom: 28px; */
     font-size: 20px;
-    white-space: nowrap;
-    margin-left: 90px;
+    /* margin-left: 90px; */
 }
 .navi_item.op_innerLink {
     cursor: pointer;
+}
+
+.navi-link {
+    display: block;
+    color: #4e5966;
+    width: 100%;
+    padding: 14px 0px 14px 85px;
+}
+
+.navi-link:hover {
+    color: #4e5966;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 
