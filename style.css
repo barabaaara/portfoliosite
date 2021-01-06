@@ -29,11 +29,6 @@ figcaption {
     font-size: 0.9em;
 }
 
-.nav-extend {
-    background-color: rgba(255,255,255,0.5);
-    font-size: 1.5em;
-}
-
 .jumbotron-extend {
     position: relative;
     height: 100vh;
@@ -67,35 +62,9 @@ figcaption {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/****************************/
+/*** モーダルウィンドウ関係 ***/
+/****************************/
 .work-modal {
     cursor: pointer;
 }
@@ -239,10 +208,9 @@ figcaption {
 }
 
 
-
-
-
-
+/********************/
+/*** Skillの箱関係 ***/
+/********************/
 .skill-box {
     margin: 15px 2.5px 15px 2.5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.22);
@@ -295,22 +263,9 @@ figcaption {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*ハンバーガーボタン*/
+/************************/
+/*** ナビゲーション関係 ***/
+/************************/
 .el_humburger {
     position: fixed;
     top: 3%;
@@ -323,7 +278,6 @@ figcaption {
     cursor: pointer;
     pointer-events: auto;
     text-align: center;
-    /* border: 1px solid #4e5966; */
     padding: 13px 10px 13px 10px;
     border-radius: 10px;
     background-color: #88c9ba;
@@ -414,9 +368,7 @@ figcaption {
 .navi_item {
     display: block;
     width: 100%;
-    /* margin-bottom: 28px; */
     font-size: 20px;
-    /* margin-left: 90px; */
 }
 .navi_item.op_innerLink {
     cursor: pointer;
@@ -434,16 +386,4 @@ figcaption {
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
